@@ -1,0 +1,6 @@
+s = input()
+print(True in [x.isalnum() for x in list(s) if x.isalnum()])
+print(True in [x.isalpha() for x in list(s) if x.isalpha()])
+print(True in [x.isdigit() for x in list(s) if x.isdigit()])    
+print(True in [x.islower() for x in list(s) if x.islower()])
+print(True in [x.isupper() for x in list(s) if x.isupper()])
